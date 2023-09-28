@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Grocery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navigation">
+            <div class="page-title">E-Grocery</div>
+            <div class="nav">
+                <a href="#title" class="nav-item">Home</a>
+                <a href="#content-left" class="nav-item">Our Package</a>
+                <a href="/" class="nav-item">Call Us</a>
+            </div>
+    </header>
+    <main>
+        <div id="title" class="content-title">
+            <div>
+                <h1>Top Rated E-Groceries Shop in Indonesia</h1>
+            </div>
+            <div>
+                <span>Everyday with best ingredient</span>
+            </div>
+        </div>
+        <div id="content" class="content">
+            <div id="content-left" class="content-left">
+                <div id="content-image" class="content-image">
+                    <img src="asset/bawang.png" class="image active" alt="gambar 1">
+                    <img src="asset/cabai.jpeg" class="image" alt="gambar 2">
+                    <img src="asset/kentang.jpg" class="image" alt="gambar 3">
+                    <img src="asset/tomat.jpg" class="image" alt="gambar 4">
+                    <img src="asset/wortel.jpg" class="image" alt="gambar 5">
+                    <img src="asset/kol.jpg" class="image" alt="gambar 6">
+                </div>
+            </div>
+            <div id="content-right" class="content-right">
+                <form name="contact-form" class="content-form">
+                    <label for="your-name">Nama Panggilan:</label>
+                    <input id="your-name" type="text" name="your-name" placeholder="Masukkan nama panggilan anda">
+                    <p id="name-error" class="error-message"></p>
+
+                    <label for="email">Alamat Email:</label>
+                    <input id="email" type="email" name="email" placeholder="example@gmail.com">
+                    <p id="email-error" class="error-message"></p>
+
+                    <label for="interest">What are you interested in?</label>
+                    <select type="select" name="interest">
+                        <option value="">--select interest--</option>
+                        <option value="bawang">Bawang</option>
+                        <option value="cabai">Cabai</option>
+                        <option value="tomat">Tomat</option>
+                        <option value="kentang">Kentang</option>
+                        <option value="kol">Kol</option>
+                        <option value="wortel">Wortel</option>
+                    </select>
+                    <p id="interest-error" class="error-message"></p>
+
+                    <div id="button" type="submit" class="button">SEND</d>
+                </form>
+            </div>
+        </div>
+    </main>
+    <div class="comment">
+        <p class="italic-text">"Setiap hari beli sayur dan buah yang fresh disini"</p>
+    </div>
+    <div id="our-products" class="guest">
+        <div class="circle">
+            <img src="asset/icon1.png" alt="guest1">
+        </div>
+        <div class="comment-content">
+            <h3>Muhammad Furqon Ananda</h3>
+            <p>Mahasiswa, 21</p>
+        </div>
+    </div>
+    <div class="ingredient">
+        <div class="Manfaat">
+         <h3>Manfaat dari buah dan sayuran adalah sebagai berikut :</h3>
+        </div>
+        <div> 
+            <span>1. Membantu menurunkan tekanan darah</span>
+        </div>
+        <div> 
+            <span>2. Memelihara kesehatan usus</span>
+        </div>
+        <div> 
+            <span>3. Mencegah sembelit</span>
+        </div>
+        <div> 
+            <span>4. Melancarkan sistem pencernaan</span>
+        </div>
+        <div> 
+            <span>5. Menjaga berat badan ideal dan mencegah obesitas</span>
+        </div>
+    </div>
+    <footer></footer>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
